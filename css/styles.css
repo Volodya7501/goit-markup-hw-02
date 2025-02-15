@@ -61,7 +61,8 @@ body {
   color: #404bbf;
 }
 
-.header-nav-link {
+.header-nav-link-p,
+.header-nav-link-c {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -70,8 +71,10 @@ body {
   color: #2e2f42;
 }
 
-.header-nav-link:hover,
-.header-nav-link:focus {
+.header-nav-link-p:hover,
+.header-nav-link-p:focus,
+.header-nav-link-c:hover,
+.header-nav-link-c:focus {
   color: #404bbf;
 }
 
@@ -97,7 +100,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.071;
+  line-height: 1.07143;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -113,7 +116,7 @@ body {
   color: #fff;
 }
 .btn:hover,
-.btn:active {
+.btn:focus {
   background-color: #404bbf;
 }
 /* #endregion hero */
@@ -135,7 +138,7 @@ body {
 /* #endregion text */
 /* #region our team */
 .ourteam {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 .ourteam-title {
   font-weight: 700;

@@ -134,7 +134,9 @@ body {
   text-align: center;
   color: #2e2f42;
 }
-
+.ourteam-list-item {
+  background-color: #ffffff;
+}
 .ourteam-list-item-title {
   font-weight: 500;
   font-size: 20px;

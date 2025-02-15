@@ -16,7 +16,7 @@ button {
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
-  color: #2e2f42;
+  color: #434455;
 }
 /* !!!!! виправив колір тексту */
 /* #endregion zag */
@@ -44,7 +44,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #2e2f42;
 }
 
@@ -105,12 +104,17 @@ body {
 }
 
 .btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #fff;
 }
 .btn:hover,
 .btn:active {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 /* #endregion hero */
 /* #region text */
@@ -162,6 +166,9 @@ body {
 /* #endregion our team */
 
 /* #region Our Portfolio */
+.ourportfolio {
+  background-color: #f4f4fd;
+}
 .ourportfolio-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -202,7 +209,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 .footer-link-span {
   font-family: "Raleway", sans-serif;
@@ -211,7 +218,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 .footer-dscr {
   font-family: "Roboto", sans-serif;

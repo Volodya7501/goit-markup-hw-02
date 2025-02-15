@@ -75,6 +75,9 @@ body {
 .adr-list-contacts-link:hover {
   color: #404bbf;
 }
+.adr-list-contacts-link:focus {
+  color: #404bbf;
+}
 /* #endregion header */
 /* #region hero */
 .hero {
